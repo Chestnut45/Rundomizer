@@ -35,7 +35,7 @@
             this.RelicListView = new System.Windows.Forms.ListView();
             this.RunTypeLabel = new System.Windows.Forms.Label();
             this.RunTypeDropDown = new System.Windows.Forms.ComboBox();
-            this.RunTypeDescription = new System.Windows.Forms.TextBox();
+            this.RunTypeDescription = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // GenerateRunButton
@@ -52,7 +52,6 @@
             // OrbListView
             // 
             this.OrbListView.BackColor = System.Drawing.SystemColors.Control;
-            this.OrbListView.Enabled = false;
             this.OrbListView.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.OrbListView.HideSelection = true;
             this.OrbListView.Location = new System.Drawing.Point(12, 27);
@@ -85,7 +84,6 @@
             // RelicListView
             // 
             this.RelicListView.BackColor = System.Drawing.SystemColors.Control;
-            this.RelicListView.Enabled = false;
             this.RelicListView.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.RelicListView.HideSelection = true;
             this.RelicListView.Location = new System.Drawing.Point(274, 27);
@@ -122,14 +120,13 @@
             // 
             // RunTypeDescription
             // 
-            this.RunTypeDescription.BackColor = System.Drawing.SystemColors.Control;
-            this.RunTypeDescription.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.RunTypeDescription.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.RunTypeDescription.Location = new System.Drawing.Point(184, 363);
             this.RunTypeDescription.Name = "RunTypeDescription";
-            this.RunTypeDescription.ReadOnly = true;
-            this.RunTypeDescription.Size = new System.Drawing.Size(346, 16);
+            this.RunTypeDescription.Size = new System.Drawing.Size(346, 15);
             this.RunTypeDescription.TabIndex = 8;
-            this.RunTypeDescription.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.RunTypeDescription.Text = "RunTypeDescription";
+            this.RunTypeDescription.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MainForm
             // 
@@ -161,6 +158,6 @@
         private ListView RelicListView;
         private Label RunTypeLabel;
         private ComboBox RunTypeDropDown;
-        private TextBox RunTypeDescription;
+        private Label RunTypeDescription;
     }
 }

@@ -146,6 +146,10 @@ namespace Rundomizer
 
         private void LoadAssets()
         {
+            // Focus a label so no highlighting
+            OrbsLabel.Focus();
+            OrbsLabel.Select();
+
             // Initialize the imagelists for the listviews
 
             // ORBS
@@ -197,7 +201,8 @@ namespace Rundomizer
         private void GenerateRunButton_Click(object sender, EventArgs e)
         {
             //Fix border
-            OrbListView.Focus();
+            OrbsLabel.Focus();
+            OrbsLabel.Select();
 
             // Clear listviews
             OrbListView.Items.Clear();
@@ -250,7 +255,8 @@ namespace Rundomizer
                     break;
 
                 case 2:
-                    int numOrbs = rng.Next(5) + 6;
+
+                    int numOrbs = rng.Next(5) + 6; // 6-10 orbs
 
                     for (int i = 0; i < numOrbs; i++)
                     {
@@ -275,7 +281,7 @@ namespace Rundomizer
 
                 case 1:
 
-                    RunTypeDescription.Text = "1 random orb only, 1 extra starting relic.";
+                    RunTypeDescription.Text = "1 random orb, 1 extra starting relic.";
 
                     break;
 
