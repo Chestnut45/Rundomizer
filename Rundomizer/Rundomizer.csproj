@@ -9,11 +9,467 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Orbs\Allorbnothing.png" />
+    <None Remove="Orbs\Ball Lightning.png" />
+    <None Remove="Orbs\Bob-Orb.png" />
+    <None Remove="Orbs\Bouldorb.png" />
+    <None Remove="Orbs\Bramball.png" />
+    <None Remove="Orbs\Concentrication.png" />
+    <None Remove="Orbs\Critiball.png" />
+    <None Remove="Orbs\Daggorb.png" />
+    <None Remove="Orbs\Darkness Eterball.png" />
+    <None Remove="Orbs\Doctorb.png" />
+    <None Remove="Orbs\Echorb.png" />
+    <None Remove="Orbs\Etherwheel.png" />
+    <None Remove="Orbs\Extra-Orbinary.png" />
+    <None Remove="Orbs\Icircle.png" />
+    <None Remove="Orbs\Infernorb.png" />
+    <None Remove="Orbs\Jack-Orb-Lantern.png" />
+    <None Remove="Orbs\Matryorbshka.png" />
+    <None Remove="Orbs\Memorb.png" />
+    <None Remove="Orbs\Morbidorb.png" />
+    <None Remove="Orbs\Necorbmancer.png" />
+    <None Remove="Orbs\Nosforbatu.png" />
+    <None Remove="Orbs\Ohmygorb!.png" />
+    <None Remove="Orbs\Omegorb.png" />
+    <None Remove="Orbs\Orbelisk.png" />
+    <None Remove="Orbs\Orbsium.png" />
+    <None Remove="Orbs\Poltorbgeist.png" />
+    <None Remove="Orbs\Refreshorb.png" />
+    <None Remove="Orbs\Reorbanizer.png" />
+    <None Remove="Orbs\Rubborb.png" />
+    <None Remove="Orbs\Sphear.png" />
+    <None Remove="Orbs\Splatorb.png" />
+    <None Remove="Orbs\Stone.png" />
+    <None Remove="Orbs\Swoltorb.png" />
     <None Remove="Orbs\Sworb.png" />
+    <None Remove="Relics\Alchemist%27s Cookbook.png" />
+    <None Remove="Relics\Ambidextionary.png" />
+    <None Remove="Relics\Ambiguous Amulet.png" />
+    <None Remove="Relics\An Apple A Day.png" />
+    <None Remove="Relics\Bad Cheese.png" />
+    <None Remove="Relics\Basic Blade.png" />
+    <None Remove="Relics\Betsy%27s Hedge.png" />
+    <None Remove="Relics\Bomb Baton.png" />
+    <None Remove="Relics\Bombulet.png" />
+    <None Remove="Relics\Complex Claw.png" />
+    <None Remove="Relics\Consuming Chalice.png" />
+    <None Remove="Relics\Cookie.png" />
+    <None Remove="Relics\Critsomallos Fleece.png" />
+    <None Remove="Relics\Cursed Mask.png" />
+    <None Remove="Relics\Decoy Orb.png" />
+    <None Remove="Relics\Dumb Bell.png" />
+    <None Remove="Relics\Echo Chamber.png" />
+    <None Remove="Relics\Electropegnet.png" />
+    <None Remove="Relics\Enhanced Gunpowder.png" />
+    <None Remove="Relics\Eye of Turtle.png" />
+    <None Remove="Relics\Fresh Bandana.png" />
+    <None Remove="Relics\Gardener%27s Gloves.png" />
+    <None Remove="Relics\Gift That Keeps Giving.png" />
+    <None Remove="Relics\Glorious SuffeRing.png" />
+    <None Remove="Relics\Grabby Hand.png" />
+    <None Remove="Relics\Haglin%27s Satchel.png" />
+    <None Remove="Relics\Heavy Shaft Potion.png" />
+    <None Remove="Relics\Improved Catalyst.png" />
+    <None Remove="Relics\Inconspicuous Ring.png" />
+    <None Remove="Relics\Infernal Ingot.png" />
+    <None Remove="Relics\Intentional Oboe.png" />
+    <None Remove="Relics\Kinetic Meteorite.png" />
+    <None Remove="Relics\Knife%27s Edge.png" />
+    <None Remove="Relics\Light Shaft Potion.png" />
+    <None Remove="Relics\Lucky Penny.png" />
+    <None Remove="Relics\Matryoshka Shell.png" />
+    <None Remove="Relics\Mental Mantle.png" />
+    <None Remove="Relics\Monster Training.png" />
+    <None Remove="Relics\Overwhammer.png" />
+    <None Remove="Relics\PegBag.png" />
+    <None Remove="Relics\Perfected Reactant.png" />
+    <None Remove="Relics\Pocket Sand.png" />
+    <None Remove="Relics\Pocketwatch.png" />
+    <None Remove="Relics\Popping Corn.png" />
+    <None Remove="Relics\Powder Collector.png" />
+    <None Remove="Relics\Power Glove.png" />
+    <None Remove="Relics\Pumpkin Pi.png" />
+    <None Remove="Relics\Puppet.png" />
+    <None Remove="Relics\Rallying Heart.png" />
+    <None Remove="Relics\Recombombulator.png" />
+    <None Remove="Relics\Refillibuster.png" />
+    <None Remove="Relics\Refresher Course.png" />
+    <None Remove="Relics\Refreshield.png" />
+    <None Remove="Relics\Refreshing Punch.png" />
+    <None Remove="Relics\Refreshiv.png" />
+    <None Remove="Relics\Ring of Indignation.png" />
+    <None Remove="Relics\Ring of Reuse.png" />
+    <None Remove="Relics\Round Guard.png" />
+    <None Remove="Relics\Safety Net.png" />
+    <None Remove="Relics\Salt Shaker.png" />
+    <None Remove="Relics\Sand Arrows.png" />
+    <None Remove="Relics\Sapper Sack.png" />
+    <None Remove="Relics\Sealed Conviction.png" />
+    <None Remove="Relics\Short Fuse.png" />
+    <None Remove="Relics\Short Stack.png" />
+    <None Remove="Relics\Shrewd Scales.png" />
+    <None Remove="Relics\Smoke Mod.png" />
+    <None Remove="Relics\Special Button.png" />
+    <None Remove="Relics\Spiral Slayer.png" />
+    <None Remove="Relics\Strange Brew.png" />
+    <None Remove="Relics\Suffer the Sling.png" />
+    <None Remove="Relics\Super Boots.png" />
+    <None Remove="Relics\Tactical Treat.png" />
+    <None Remove="Relics\The Cake.png" />
+    <None Remove="Relics\Unicorn Horn.png" />
+    <None Remove="Relics\Unpretentious Pendant.png" />
+    <None Remove="Relics\Wall Chicken.png" />
+    <None Remove="Relics\Wand of Skulltimate Power.png" />
+    <None Remove="Relics\Weaponized Envy.png" />
+    <None Remove="Relics\Weighted Chip.png" />
+    <None Remove="Relics\Well-Done Steak.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Orbs\Allorbnothing.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Ball Lightning.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Bob-Orb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Bouldorb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Bramball.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Concentrication.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Critiball.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Daggorb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Darkness Eterball.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Doctorb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Echorb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Etherwheel.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Extra-Orbinary.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Icircle.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Infernorb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Jack-Orb-Lantern.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Matryorbshka.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Memorb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Morbidorb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Necorbmancer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Nosforbatu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Ohmygorb!.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Omegorb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Orbelisk.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Orbsium.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Poltorbgeist.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Refreshorb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Reorbanizer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Rubborb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Sphear.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Splatorb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Stone.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orbs\Swoltorb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Orbs\Sworb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Alchemist's Cookbook.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Ambidextionary.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Ambiguous Amulet.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\An Apple A Day.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Bad Cheese.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Basic Blade.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Betsy's Hedge.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Bomb Baton.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Bombulet.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Complex Claw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Consuming Chalice.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Cookie.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Critsomallos Fleece.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Cursed Mask.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Decoy Orb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Dumb Bell.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Echo Chamber.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Electropegnet.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Enhanced Gunpowder.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Eye of Turtle.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Fresh Bandana.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Gardener's Gloves.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Gift That Keeps Giving.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Glorious SuffeRing.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Grabby Hand.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Haglin's Satchel.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Heavy Shaft Potion.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Improved Catalyst.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Inconspicuous Ring.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Infernal Ingot.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Intentional Oboe.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Kinetic Meteorite.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Knife's Edge.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Light Shaft Potion.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Lucky Penny.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Matryoshka Shell.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Mental Mantle.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Monster Training.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Overwhammer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\PegBag.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Perfected Reactant.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Pocket Sand.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Pocketwatch.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Popping Corn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Powder Collector.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Power Glove.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Pumpkin Pi.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Puppet.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Rallying Heart.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Recombombulator.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Refillibuster.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Refresher Course.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Refreshield.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Refreshing Punch.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Refreshiv.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Ring of Indignation.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Ring of Reuse.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Round Guard.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Safety Net.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Salt Shaker.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Sand Arrows.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Sapper Sack.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Sealed Conviction.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Short Fuse.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Short Stack.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Shrewd Scales.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Smoke Mod.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Special Button.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Spiral Slayer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Strange Brew.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Suffer the Sling.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Super Boots.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Tactical Treat.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\The Cake.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Unicorn Horn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Unpretentious Pendant.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Wall Chicken.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Wand of Skulltimate Power.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Weaponized Envy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Weighted Chip.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relics\Well-Done Steak.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

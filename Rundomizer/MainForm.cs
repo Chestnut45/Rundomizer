@@ -14,104 +14,190 @@ namespace Rundomizer
             }
         }
 
-        public List<string> ORBS = new List<string>
+        public static readonly List<string> ORBS = new List<string>
         {
-            "Stone",
-            "Daggorb",
-            "Sworb",
-            "Sphear",
-            "Bramball",
-            "Rubborb",
-            "Splatorb",
-            "Orbsium",
-            "Bouldorb",
-            "Orbelisk",
-            "Swoltorb",
-            "Omegorb",
-            "Matryorbshka",
-            "Reorbanizer",
             "Allorbnothing",
-            "Infernorb",
-            "Icircle",
             "Ball Lightning",
-            "Darkness Eterball",
-            "Poltorbgeist",
-            "Echorb",
-            "Refreshorb",
-            "Critiball",
-            "Ohmygorb!",
-            "Extra-Orbinary",
             "Bob-Orb",
+            "Bouldorb",
+            "Bramball",
             "Concentrication",
+            "Critiball",
+            "Daggorb",
+            "Darkness Eterball",
             "Doctorb",
-            "Nosforbatu",
-            "Necorbmancer",
-            "Morbidorb",
-            "Memorb",
-            "Jack-Orb-Lantern",
+            "Echorb",
             "Etherwheel",
+            "Extra-Orbinary",
+            "Icircle",
+            "Infernorb",
+            "Jack-Orb-Lantern",
+            "Matryorbshka",
+            "Memorb",
+            "Morbidorb",
+            "Necorbmancer",
+            "Nosforbatu",
+            "Ohmygorb!",
+            "Omegorb",
+            "Orbelisk",
+            "Orbsium",
+            "Poltorbgeist",
+            "Refreshorb",
+            "Reorbanizer",
+            "Rubborb",
+            "Sphear",
+            "Splatorb",
+            "Stone",
+            "Swoltorb",
+            "Sworb",
+        };
+
+        public List<string> RELICS = new List<string>
+        {
+            "Alchemist's Cookbook",
+            "Ambidextionary",
+            "Ambiguous Amulet",
+            "An Apple A Day",
+            "Bad Cheese",
+            "Basic Blade",
+            "Betsy's Hedge",
+            "Bomb Baton",
+            "Bombulet",
+            "Complex Claw",
+            "Consuming Chalice",
+            "Cookie",
+            "Critsomallos Fleece",
+            "Cursed Mask",
+            "Decoy Orb",
+            "Dumb Bell",
+            "Echo Chamber",
+            "Electropegnet",
+            "Enhanced Gunpowder",
+            "Eye of Turtle",
+            "Fresh Bandana",
+            "Gardener's Gloves",
+            "Gift That Keeps Giving",
+            "Glorious SuffeRing",
+            "Grabby Hand",
+            "Haglin's Satchel",
+            "Heavy Shaft Potion",
+            "Improved Catalyst",
+            "Inconspicuous Ring",
+            "Infernal Ingot",
+            "Intentional Oboe",
+            "Kinetic Meteorite",
+            "Knife's Edge",
+            "Light Shaft Potion",
+            "Lucky Penny",
+            "Matryoshka Shell",
+            "Mental Mantle",
+            "Monster Training",
+            "Overwhammer",
+            "PegBag",
+            "Perfected Reactant",
+            "Pocket Sand",
+            "Pocketwatch",
+            "Popping Corn",
+            "Powder Collector",
+            "Power Glove",
+            "Pumpkin Pi",
+            "Puppet",
+            "Rallying Heart",
+            "Recombombulator",
+            "Refillibuster",
+            "Refresher Course",
+            "Refreshield",
+            "Refreshing Punch",
+            "Refreshiv",
+            "Ring of Indignation",
+            "Ring of Reuse",
+            "Round Guard",
+            "Safety Net",
+            "Salt Shaker",
+            "Sand Arrows",
+            "Sapper Sack",
+            "Sealed Conviction",
+            "Short Fuse",
+            "Short Stack",
+            "Shrewd Scales",
+            "Smoke Mod",
+            "Special Button",
+            "Spiral Slayer",
+            "Strange Brew",
+            "Suffer the Sling",
+            "Super Boots",
+            "Tactical Treat",
+            "The Cake",
+            "Unicorn Horn",
+            "Unpretentious Pendant",
+            "Wall Chicken",
+            "Wand of Skulltimate Power",
+            "Weaponized Envy",
+            "Weighted Chip",
+            "Well-Done Steak",
         };
 
         public MainForm()
         {
             InitializeComponent();
 
-            Task.Run(() => LoadAssets());
+            LoadAssets();
         }
 
         private void LoadAssets()
         {
-            // Initialize image formatting
+            // Initialize the imagelists for the listviews
+
+            // ORBS
             OrbListView.SmallImageList = new ImageList();
             OrbListView.SmallImageList.ImageSize = new Size(60, 60);
             OrbListView.SmallImageList.ColorDepth = ColorDepth.Depth24Bit;
 
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Stone.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Daggorb.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Sworb.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Sphear.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Bramball.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Rubborb.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Splatorb.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Orbsium.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Bouldorb.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Orbelisk.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Swoltorb.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Omegorb.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Matryorbshka.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Reorbanizer.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Allorbnothing.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Infernorb.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Icircle.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Ball Lightning.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Darkness Eterball.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Poltorbgeist.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Echorb.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Refreshorb.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Critiball.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Ohmygorb!.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Extra-Orbinary.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Bob-Orb.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Concentrication.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Doctorb.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Nosforbatu.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Necorbmancer.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Morbidorb.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Memorb.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Jack-Orb-Lantern.png"));
-            OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/Etherwheel.png"));
+            foreach (string orbName in ORBS)
+            {
+                OrbListView.SmallImageList.Images.Add(Image.FromFile("Orbs/" + orbName + ".png"));
+            }
+
+            // RELICS
+            RelicListView.SmallImageList = new ImageList();
+            RelicListView.SmallImageList.ImageSize = new Size(60, 60);
+            RelicListView.SmallImageList.ColorDepth = ColorDepth.Depth24Bit;
+
+            foreach (string relicName in RELICS)
+            {
+                RelicListView.SmallImageList.Images.Add(Image.FromFile("Relics/" + relicName + ".png"));
+            }
+
+            // Drop Down for run type default value
+            RunTypeDropDown.SelectedIndex = 0;
         }
 
-        private async void GenerateRunButton_Click(object sender, EventArgs e)
+        private void GenerateRunButton_Click(object sender, EventArgs e)
         {
+            //Fix border
+            OrbListView.Focus();
+
+            // Clear listviews
+            OrbListView.Items.Clear();
+            RelicListView.Items.Clear();
+
             // Generate the orbs and relics
-            PeglinRun run = await Task.Run(() => GenerateRun());
+            PeglinRun run = GenerateRun();
 
-            // Then update the form fields
-            ListViewItem item = new ListViewItem(run.Orbs[0], 0);
-            OrbListView.Items.Add(item);
+            // Update the orb listview
+            foreach (string orb in run.Orbs)
+            {
+                ListViewItem item = new ListViewItem(orb, ORBS.IndexOf(orb));
+                OrbListView.Items.Add(item);
+            }
 
-            
+            // Update the relic listview
+
+            foreach (string relic in run.Relics)
+            {
+                ListViewItem item = new ListViewItem(relic, RELICS.IndexOf(relic));
+                RelicListView.Items.Add(item);
+            }
         }
 
         private PeglinRun GenerateRun()
@@ -123,9 +209,60 @@ namespace Rundomizer
             Random rng = new Random();
 
             // Choose how many orbs / relics
-            orbs.Add("testington");
+            switch (RunTypeDropDown.SelectedIndex)
+            {
+                case 0:
+
+                    for (int i = 0; i < 4; i++)
+                    {
+                        orbs.Add(ORBS[rng.Next(ORBS.Count)]);
+                    }
+
+                    break;
+
+                case 1:
+
+                    orbs.Add(ORBS[rng.Next(ORBS.Count)]);
+                    relics.Add(RELICS[rng.Next(RELICS.Count)]);
+
+                    break;
+
+                case 2:
+                    int numOrbs = rng.Next(5) + 6;
+
+                    for (int i = 0; i < numOrbs; i++)
+                    {
+                        orbs.Add(ORBS[rng.Next(ORBS.Count)]);
+                    }
+
+                    break;
+            }
 
             return new PeglinRun(orbs, relics);
+        }
+
+        private void RunTypeDropDown_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (RunTypeDropDown.SelectedIndex)
+            {
+                case 0:
+
+                    RunTypeDescription.Text = "4 random orbs, no extra starting relics.";
+
+                    break;
+
+                case 1:
+
+                    RunTypeDescription.Text = "1 random orb only, 1 extra starting relic.";
+
+                    break;
+
+                case 2:
+
+                    RunTypeDescription.Text = "6-10 random orbs, no extra starting relics.";
+
+                    break;
+            }
         }
     }
 }
