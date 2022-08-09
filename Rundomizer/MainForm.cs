@@ -142,6 +142,8 @@ namespace Rundomizer
             InitializeComponent();
 
             LoadAssets();
+
+            Icon = Properties.Resources.PeglinRundomizerIcon;
         }
 
         private void LoadAssets()
