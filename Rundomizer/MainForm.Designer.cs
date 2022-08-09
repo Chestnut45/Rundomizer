@@ -110,20 +110,28 @@
             this.RunTypeDropDown.FormattingEnabled = true;
             this.RunTypeDropDown.Items.AddRange(new object[] {
             "Standard Reshuffled",
-            "One-Orb Wonder",
-            "Phat Deck"});
+            "Ol\' Reliable",
+            "Oh Boy, Twins!",
+            "Three\'s Company",
+            "Let\'s Bounce!",
+            "Why Are You Hitting Yourself?",
+            "Stoned",
+            "Phat Deck",
+            "Over 9000",
+            "Knife To A Gunfight",
+            "Glass Cannon"});
             this.RunTypeDropDown.Location = new System.Drawing.Point(12, 363);
             this.RunTypeDropDown.Name = "RunTypeDropDown";
-            this.RunTypeDropDown.Size = new System.Drawing.Size(166, 23);
+            this.RunTypeDropDown.Size = new System.Drawing.Size(195, 23);
             this.RunTypeDropDown.TabIndex = 7;
             this.RunTypeDropDown.SelectedIndexChanged += new System.EventHandler(this.RunTypeDropDown_SelectedIndexChanged);
             // 
             // RunTypeDescription
             // 
             this.RunTypeDescription.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.RunTypeDescription.Location = new System.Drawing.Point(184, 363);
+            this.RunTypeDescription.Location = new System.Drawing.Point(213, 363);
             this.RunTypeDescription.Name = "RunTypeDescription";
-            this.RunTypeDescription.Size = new System.Drawing.Size(346, 15);
+            this.RunTypeDescription.Size = new System.Drawing.Size(317, 15);
             this.RunTypeDescription.TabIndex = 8;
             this.RunTypeDescription.Text = "RunTypeDescription";
             this.RunTypeDescription.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

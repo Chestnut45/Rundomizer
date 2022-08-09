@@ -52,7 +52,7 @@ namespace Rundomizer
             "Sworb",
         };
 
-        public List<string> RELICS = new List<string>
+        public static readonly List<string> RELICS = new List<string>
         {
             "Alchemist's Cookbook",
             "Ambidextionary",
@@ -135,6 +135,200 @@ namespace Rundomizer
             "Weaponized Envy",
             "Weighted Chip",
             "Well-Done Steak",
+        };
+
+        // Orb Categories
+        public static readonly List<string> SINGLETARGETORBS = new List<string>
+        {
+            "Stone",
+            "Daggorb",
+            "Sworb",
+            "Rubborb",
+            "Splatorb",
+            "Orbsium",
+            "Swoltorb",
+            "Omegorb",
+            "Matryorbshka",
+            "Reorbanizer",
+            "Allorbnothing",
+            "Infernorb",
+            "Darkness Eterball",
+            "Refreshorb",
+            "Critiball",
+            "Extra-Orbinary",
+            "Concentrication",
+            "Necorbmancer",
+            "Morbidorb",
+            "Memorb",
+            "Jack-Orb-Lantern",
+            "Etherwheel",
+        };
+
+        public static readonly List<string> AOEORBS = new List<string>
+        {
+            "Sphear",
+            "Bramball",
+            "Bouldorb",
+            "Orbelisk",
+            "Icircle",
+            "Ball Lightning",
+            "Poltorbgeist",
+            "Echorb",
+            "Ohmygorb!",
+            "Bob-Orb",
+            "Nosforbatu",
+        };
+
+
+        // Relic Categories
+        public static readonly List<string> BOMBRELICS = new List<string>
+        {
+            "Bombulet",
+            "Bomb Baton",
+            "Enhanced Gunpowder",
+            "Short Fuse",
+            "Powder Collector",
+            "Improved Catalyst",
+            "Perfected Reactant",
+            "Alchemist's Cookbook",
+            "Recombombulator",
+            "Sapper Sack",
+            "Smoke Mod",
+        };
+
+        public static readonly List<string> CRITRELICS = new List<string>
+        {
+            "Complex Claw",
+            "Special Button",
+            "Short Stack",
+            "Betsy's Hedge",
+            "Critsomallos Fleece",
+            "Lucky Penny",
+            "Light Shaft Potion",
+            "Heavy Shaft Potion",
+            "Consuming Chalice",
+            "Strange Brew",
+        };
+
+        public static readonly List<string> REFRESHRELICS = new List<string>
+        {
+            "Light Shaft Potion",
+            "Heavy Shaft Potion",
+            "Fresh Bandana",
+            "Refillibuster",
+            "Cookie",
+            "Tactical Treat",
+            "Refresher Course",
+            "Refreshield",
+            "PegBag",
+            "Refreshing Punch",
+            "Refreshiv",
+            "Strange Brew",
+        };
+
+        
+        public static readonly List<string> RELOADRELICS = new List<string>
+        {
+            "Round Guard",
+            "Decoy Orb",
+            "Bad Cheese",
+            "Refreshield",
+            "Dumb Bell",
+            "Well-Done Steak",
+            "Shrewd Scales",
+            "Ambidextionary",
+        };
+
+        public static readonly List<string> HEALTHRELICS = new List<string>
+        {
+            "Cookie",
+            "An Apple A Day",
+            "The Cake",
+            "Rallying Heart",
+            "Wall Chicken",
+            "Well-Done Steak",
+            "Popping Corn",
+            "Infernal Ingot",
+            "Super Boots",
+            "Intentional Oboe",
+            "Puppet",
+        };
+
+        public static readonly List<string> BOARDRELICS = new List<string>
+        {
+            "Light Shaft Potion",
+            "Heavy Shaft Potion",
+            "Weighted Chip",
+            "Tactical Treat",
+            "Refreshing Punch",
+            "Kinetic Meteorite",
+            "Strange Brew",
+            "Unicorn Horn",
+            "Gift That Keeps Giving",
+            "Pumpkin Pi",
+            "Fresh Bandana",
+            "PegBag",
+            "Special Button",
+            "Lucky Penny",
+            "Powder Collector",
+        };
+
+        public static readonly List<string> DAMAGERELICS = new List<string>
+        {
+            "Weaponized Envy",
+            "Mental Mantle",
+            "Ring of Indignation",
+            "Ambiguous Amulet",
+            "Refillibuster",
+            "Echo Chamber",
+            "Inconspicuous Ring",
+            "Safety Net",
+            "Wand of Skulltimate Power",
+            "Basic Blade",
+            "Bad Cheese",
+            "Complex Claw",
+            "Dumb Bell",
+            "Gardener's Gloves",
+            "Salt Shaker",
+            "Grabby Hand",
+            "Suffer the Sling",
+            "Spiral Slayer",
+            "Knife's Edge",
+            "Monster Training",
+            "Overwhammer",
+            "Pocketwatch",
+            "Power Glove",
+            "Shrewd Scales",
+            "Cursed Mask",
+            "Glorious SuffeRing",
+            "Sealed Conviction",
+        };
+
+        public static readonly List<string> WEIRDRELICS = new List<string>
+        {
+            "Betsy's Hedge",
+            "Weighted Chip",
+            "Kinetic Meteorite",
+            "Infernal Ingot",
+            "Unicorn Horn",
+            "Wand of Skulltimate Power",
+            "Eye of Turtle",
+            "Gardener's Gloves",
+            "Salt Shaker",
+            "Grabby Hand",
+            "Knife's Edge",
+            "Monster Training",
+            "Ring of Reuse",
+            "Short Stack",
+            "Pumpkin Pi",
+            "Consuming Chalice",
+            "Cursed Mask",
+            "Glorious SuffeRing",
+            "Haglin's Satchel", // Doesn't work yet as of latest experimental patch 0.7.45
+            "Electropegnet",
+            "Matryoshka Shell",
+            "Sealed Conviction",
+            "Unpretentious Pendant",
         };
 
         public MainForm()
@@ -242,6 +436,7 @@ namespace Rundomizer
             {
                 case 0:
 
+                    // Standard Reshuffled
                     for (int i = 0; i < 4; i++)
                     {
                         orbs.Add(ORBS[rng.Next(ORBS.Count)]);
@@ -251,6 +446,7 @@ namespace Rundomizer
 
                 case 1:
 
+                    // Ol' Reliable
                     orbs.Add(ORBS[rng.Next(ORBS.Count)]);
                     relics.Add(RELICS[rng.Next(RELICS.Count)]);
 
@@ -258,12 +454,140 @@ namespace Rundomizer
 
                 case 2:
 
-                    int numOrbs = rng.Next(5) + 6; // 6-10 orbs
+                    // Oh Boy, Twins!
+                    int index = rng.Next(ORBS.Count);
+                    orbs.Add(ORBS[index]);
+                    orbs.Add(ORBS[index]);
+
+                    break;
+
+                case 3:
+
+                    // Three's Company
+                    for (int i = 0; i < 3; i++)
+                    {
+                        orbs.Add(ORBS[rng.Next(ORBS.Count)]);
+                    }
+
+                    break;
+
+                case 4:
+
+                    // Let's Bounce!
+                    for (int i = 0; i < 3; i++)
+                    {
+                        index = rng.Next(3);
+                        if (index == 0)
+                        {
+                            orbs.Add("Splatorb");
+                        } else if (index == 1)
+                        {
+                            orbs.Add("Rubborb");
+                        } else
+                        {
+                            orbs.Add("Infernorb");
+                        }
+                    }
+
+                    break;
+
+                case 5:
+
+                    // Why Are You Hitting Yourself
+                    for (int i = 0; i < 3; i++)
+                    {
+                        index = rng.Next(3);
+                        if (index == 0)
+                        {
+                            orbs.Add("Infernorb");
+                        }
+                        else if (index == 1)
+                        {
+                            orbs.Add("Nosforbatu");
+                        }
+                        else
+                        {
+                            orbs.Add("Omegorb");
+                        }
+                    }
+
+                    break;
+
+                case 6:
+
+                    // Stoned
+                    for (int i = 0; i < 6; i++)
+                    {
+                        index = rng.Next(3);
+                        if (index == 0)
+                        {
+                            orbs.Add("Stone");
+                        }
+                        else if (index == 1)
+                        {
+                            orbs.Add("Bouldorb");
+                        }
+                        else
+                        {
+                            orbs.Add("Orbelisk");
+                        }
+                    }
+
+                    break;
+
+                case 7:
+
+                    // Phat Deck
+                    int numOrbs = rng.Next(5) + 6;
 
                     for (int i = 0; i < numOrbs; i++)
                     {
                         orbs.Add(ORBS[rng.Next(ORBS.Count)]);
                     }
+
+                    break;
+
+                case 8:
+
+                    // Over 9000
+                    for (int i = 0; i < 2; i++)
+                    {
+                        orbs.Add(SINGLETARGETORBS[rng.Next(SINGLETARGETORBS.Count)]);
+                        relics.Add(DAMAGERELICS[rng.Next(DAMAGERELICS.Count)]);
+                    }
+
+                    break;
+
+                case 9:
+
+                    // Knife To A Gunfight
+                    for (int i = 0; i < 2; i++)
+                    {
+                        index = rng.Next(4);
+                        if (index == 0)
+                        {
+                            orbs.Add("Sphear");
+                        }
+                        else if (index == 1)
+                        {
+                            orbs.Add("Sworb");
+                        }
+                        else if (index == 2)
+                        {
+                            orbs.Add("Daggorb");
+                        } else
+                        {
+                            orbs.Add("Extra-Orbinary");
+                        }
+                    }
+
+                    break;
+
+                case 10:
+
+                    // Glass Cannon
+                    orbs.Add(AOEORBS[rng.Next(AOEORBS.Count)]);
+                    relics.Add(CRITRELICS[rng.Next(CRITRELICS.Count)]);
 
                     break;
             }
@@ -277,19 +601,67 @@ namespace Rundomizer
             {
                 case 0:
 
-                    RunTypeDescription.Text = "4 random orbs, no extra starting relics.";
+                    RunTypeDescription.Text = "4 random orbs, no extra relics.";
 
                     break;
 
                 case 1:
 
-                    RunTypeDescription.Text = "1 random orb, 1 extra starting relic.";
+                    RunTypeDescription.Text = "1 random orb, 1 extra relic.";
 
                     break;
 
                 case 2:
 
-                    RunTypeDescription.Text = "6-10 random orbs, no extra starting relics.";
+                    RunTypeDescription.Text = "2 identical random orbs, no extra relics.";
+
+                    break;
+
+                case 3:
+
+                    RunTypeDescription.Text = "3 random orbs, no extra relics.";
+
+                    break;
+
+                case 4:
+
+                    RunTypeDescription.Text = "3 random bouncy orbs, no extra relics.";
+
+                    break;
+
+                case 5:
+
+                    RunTypeDescription.Text = "3 random painful orbs, no extra relics.";
+
+                    break;
+
+                case 6:
+
+                    RunTypeDescription.Text = "6 random rocks, no extra relics.";
+
+                    break;
+
+                case 7:
+
+                    RunTypeDescription.Text = "6-10 random orbs, no extra relics.";
+
+                    break;
+
+                case 8:
+
+                    RunTypeDescription.Text = "2 random single target orbs, 2 random damage relics.";
+
+                    break;
+
+                case 9:
+
+                    RunTypeDescription.Text = "2 random sharp orbs, no extra relics.";
+
+                    break;
+
+                case 10:
+
+                    RunTypeDescription.Text = "1 random AOE orb, 1 random crit relic.";
 
                     break;
             }
