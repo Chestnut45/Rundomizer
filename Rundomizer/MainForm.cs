@@ -170,6 +170,28 @@ namespace Rundomizer
 
             // Drop Down for run type default value
             RunTypeDropDown.SelectedIndex = 0;
+
+            Panel P = new Panel();
+            P.BackColor = OrbListView.BackColor;
+            P.Location = OrbListView.Location;
+            P.Size = OrbListView.Size;
+            P.Padding = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            P.BorderStyle = OrbListView.BorderStyle;
+            OrbListView.BorderStyle = BorderStyle.None;
+            OrbListView.Parent = P;
+            OrbListView.Dock = DockStyle.Fill;
+            Controls.Add(P);
+
+            Panel P2 = new Panel();
+            P2.BackColor = RelicListView.BackColor;
+            P2.Location = RelicListView.Location;
+            P2.Size = RelicListView.Size;
+            P2.Padding = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            P2.BorderStyle = RelicListView.BorderStyle;
+            RelicListView.BorderStyle = BorderStyle.None;
+            RelicListView.Parent = P2;
+            RelicListView.Dock = DockStyle.Fill;
+            Controls.Add(P2);
         }
 
         private void GenerateRunButton_Click(object sender, EventArgs e)

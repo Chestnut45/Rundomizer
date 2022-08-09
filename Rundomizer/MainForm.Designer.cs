@@ -40,21 +40,25 @@
             // 
             // GenerateRunButton
             // 
+            this.GenerateRunButton.BackColor = System.Drawing.SystemColors.Control;
             this.GenerateRunButton.Location = new System.Drawing.Point(12, 392);
             this.GenerateRunButton.Name = "GenerateRunButton";
             this.GenerateRunButton.Size = new System.Drawing.Size(518, 68);
             this.GenerateRunButton.TabIndex = 4;
             this.GenerateRunButton.Text = "Generate Run!";
-            this.GenerateRunButton.UseVisualStyleBackColor = true;
+            this.GenerateRunButton.UseVisualStyleBackColor = false;
             this.GenerateRunButton.Click += new System.EventHandler(this.GenerateRunButton_Click);
             // 
             // OrbListView
             // 
+            this.OrbListView.BackColor = System.Drawing.SystemColors.Control;
+            this.OrbListView.Enabled = false;
             this.OrbListView.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.OrbListView.HideSelection = true;
             this.OrbListView.Location = new System.Drawing.Point(12, 27);
             this.OrbListView.Name = "OrbListView";
             this.OrbListView.Size = new System.Drawing.Size(256, 310);
+            this.OrbListView.Sorting = System.Windows.Forms.SortOrder.Ascending;
             this.OrbListView.TabIndex = 1;
             this.OrbListView.TabStop = false;
             this.OrbListView.UseCompatibleStateImageBehavior = false;
@@ -80,11 +84,14 @@
             // 
             // RelicListView
             // 
+            this.RelicListView.BackColor = System.Drawing.SystemColors.Control;
+            this.RelicListView.Enabled = false;
             this.RelicListView.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.RelicListView.HideSelection = true;
             this.RelicListView.Location = new System.Drawing.Point(274, 27);
             this.RelicListView.Name = "RelicListView";
             this.RelicListView.Size = new System.Drawing.Size(256, 310);
+            this.RelicListView.Sorting = System.Windows.Forms.SortOrder.Ascending;
             this.RelicListView.TabIndex = 4;
             this.RelicListView.UseCompatibleStateImageBehavior = false;
             this.RelicListView.View = System.Windows.Forms.View.SmallIcon;
@@ -100,6 +107,7 @@
             // 
             // RunTypeDropDown
             // 
+            this.RunTypeDropDown.BackColor = System.Drawing.SystemColors.Control;
             this.RunTypeDropDown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.RunTypeDropDown.FormattingEnabled = true;
             this.RunTypeDropDown.Items.AddRange(new object[] {
@@ -127,6 +135,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(542, 472);
             this.Controls.Add(this.RunTypeDescription);
             this.Controls.Add(this.RunTypeDropDown);
