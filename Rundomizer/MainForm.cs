@@ -597,6 +597,9 @@ namespace Rundomizer
 
         private void RunTypeDropDown_SelectedIndexChanged(object sender, EventArgs e)
         {
+            OrbsLabel.Focus();
+            OrbsLabel.Select();
+
             switch (RunTypeDropDown.SelectedIndex)
             {
                 case 0:
