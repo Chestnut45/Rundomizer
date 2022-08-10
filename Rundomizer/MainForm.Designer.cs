@@ -35,7 +35,7 @@
             this.RelicListView = new System.Windows.Forms.ListView();
             this.RunTypeLabel = new System.Windows.Forms.Label();
             this.RunTypeDropDown = new System.Windows.Forms.ComboBox();
-            this.RunTypeDescription = new System.Windows.Forms.Label();
+            this.RunTypeDescription = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // GenerateRunButton
@@ -43,7 +43,7 @@
             this.GenerateRunButton.BackColor = System.Drawing.SystemColors.ControlDark;
             this.GenerateRunButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.GenerateRunButton.Font = new System.Drawing.Font("Comfortaa", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.GenerateRunButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.GenerateRunButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.GenerateRunButton.Location = new System.Drawing.Point(12, 415);
             this.GenerateRunButton.Name = "GenerateRunButton";
             this.GenerateRunButton.Size = new System.Drawing.Size(518, 68);
@@ -140,14 +140,15 @@
             // 
             // RunTypeDescription
             // 
-            this.RunTypeDescription.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.RunTypeDescription.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.RunTypeDescription.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.RunTypeDescription.Font = new System.Drawing.Font("Comfortaa", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.RunTypeDescription.Location = new System.Drawing.Point(239, 382);
+            this.RunTypeDescription.Location = new System.Drawing.Point(239, 363);
+            this.RunTypeDescription.Multiline = true;
             this.RunTypeDescription.Name = "RunTypeDescription";
-            this.RunTypeDescription.Size = new System.Drawing.Size(291, 24);
+            this.RunTypeDescription.Size = new System.Drawing.Size(291, 46);
             this.RunTypeDescription.TabIndex = 8;
-            this.RunTypeDescription.Text = "RunTypeDescription";
-            this.RunTypeDescription.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.RunTypeDescription.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // MainForm
             // 
@@ -180,6 +181,6 @@
         private ListView RelicListView;
         private Label RunTypeLabel;
         private ComboBox RunTypeDropDown;
-        private Label RunTypeDescription;
+        private TextBox RunTypeDescription;
     }
 }
